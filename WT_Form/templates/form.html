@@ -1,0 +1,16 @@
+<form action = "http://localhost:5000/form" method = post>
+    {{ form.hidden_tag()}}
+             {{ form.name.label }}<br>
+             {{ form.name }}
+             <br>
+     
+             {{ form.marks.label }}<br>
+             {{ form.marks }}
+             <br>
+     
+             {{ form.email.label }}<br>
+             {{ form.email }}
+             <br>
+     
+             {{ form.submit }}
+    </form>
